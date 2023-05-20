@@ -7,12 +7,17 @@
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
 
-    <ImageView
+    <com.stelladk.arclib.ArcLayout
         android:id="@+id/imageView4"
-        android:layout_width="381dp"
+        android:layout_width="360dp"
         android:layout_height="603dp"
         android:layout_marginTop="40dp"
-        android:background="@drawable/shape_exzmple"
+        android:background="@drawable/pole"
+        app:ArcRadius="30dp"
+        app:BottomLeftArc="inner"
+        app:BottomRightArc="inner"
+        app:TopRightArc="inner"
+        app:TopLeftArc="inner"
         android:clipToOutline="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
